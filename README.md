@@ -31,6 +31,8 @@ After you have built the container the first time you will need to run the comma
     6.) Run the command "ng completion"
 NOTE: I tried to incoporate this into the Dockerfile but it didn't work
 
+NOTE: There is a compatibility issue with the in the package.lock.json file in the ubuntu environment.  For now you should delete both the package-lock.json file and the node_modules folder then run "npm install" from the Web.Angular folder.
+
 You will need to edit the GrowthWare.json changes to find the file use your explorer "open folder" choose ".." then "growthware/Net_Core
         DAL_SQLServer_ConnectionString
                 Example:

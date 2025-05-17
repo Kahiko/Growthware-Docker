@@ -23,7 +23,7 @@ RUN npm install -g @angular/cli@18.2
 
 # Clone the growthware repository
 RUN git config --global --add safe.directory /growthware
-RUN git clone --branch 6_0_0 https://github.com/Kahiko/Growthware.git growthware
+RUN git clone --branch 6_0_1 https://github.com/Kahiko/Growthware.git growthware
 
 # Setup the dev certs
 RUN mkdir -p $HOME/.aspnet/https
